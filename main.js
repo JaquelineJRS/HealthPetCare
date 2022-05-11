@@ -85,29 +85,7 @@ function changeColorRed() {
     if (document.getElementById('changeColor').classList.contains('color')) {
         document.getElementById('changeColor').classList.toggle('colorRed')
     }
-
-    // if (document.getElementById('changeColor').classList.contains('color')) {
-    //     document
-    //         .getElementById('changeColor')
-    //         .classList.replace('colorBlue', 'colorRed')
-    // }
 }
-
-// function changeColorBlue() {
-//     if (document.getElementById('changeColor').classList.contains('color')) {
-//         document.getElementById('changeColor').classList.add('colorBlue')
-//     }
-
-//     if (
-//         document
-//             .getElementById('changeColor')
-//             .classList.contains('color', 'colorRed')
-//     ) {
-//         document
-//             .getElementById('changeColor')
-//             .classList.replace('colorRed', 'colorBlue')
-//     }
-// }
 
 ScrollReveal({
     origin: 'top',
