@@ -6,7 +6,7 @@
 }
 
 :root {
-    --hue: 300;
+    --hue: 240;
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
     --paragraph: hsl(210, 9%, 31%);
@@ -45,7 +45,7 @@ body {
     background-color: var(--bg-light);
 }
 
-body .colorBlue {
+/* body .colorBlue {
     --hue: 240;
     --primary-color: hsl(var(--hue), 100%, 26%);
     --headline: hsl(210, 11%, 15%);
@@ -61,7 +61,7 @@ body .colorBlue {
     font-size: 62.5%;
 
     --nav-height: 7.2rem;
-}
+} */
 
 body .colorRed {
     --hue: 350;
@@ -309,6 +309,7 @@ body.menu-expanded .menu {
     line-height: 2.3rem;
     text-transform: uppercase;
     text-decoration: none;
+    text-align: center;
 
     color: var(--primary-color);
 
@@ -326,12 +327,7 @@ body.menu-expanded .menu {
     filter: brightness(1.2);
 }
 
-.menu .circleIconBlue {
-    width: 50%;
-    color: hsl(240, 100%, 26%);
-}
-
-.menu .circleIconRed {
+.menu #navigation img.circleIconRed {
     width: 50%;
     color: hsl(350, 100%, 26%);
 }
@@ -344,6 +340,23 @@ body.menu-expanded button {
     color: white;
     text-decoration: none;
     font-size: 3rem;
+}
+
+body.menu-expanded .menu .col-b {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+body.menu-expanded .menu a.button {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+body.menu-expanded .menu .col-b img {
+    width: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 /*=== HOME =================================*/
@@ -438,6 +451,7 @@ body.menu-expanded button {
 
 #services .card h3 {
     margin-block: 1.6rem;
+    text-transform: uppercase;
 }
 
 /*=== ABOUT =================================*/
@@ -497,18 +511,20 @@ footer {
     color: white;
 }
 
-footer .company {
+footer a.company {
+    text-decoration: none;
+    font-size: 3rem;
+    color: white;
+}
+
+footer #company {
     display: inline-block;
     margin-bottom: 2.4rem;
 }
 
-footer .company svg {
+footer #company svg {
     width: 23.6rem;
     height: 3.1rem;
-}
-
-footer .company path {
-    fill: white;
 }
 
 footer p {
@@ -642,6 +658,19 @@ footer .social-links {
         background-color: var(--primary-color);
         border: none;
         color: white;
+    }
+
+    nav#navigation .menu .col-b {
+        display: grid;
+        grid-template-columns: 1fr 5rem;
+    }
+
+    nav#navigation .menu .circleIconRed {
+        width: 50%;
+    }
+
+    nav#navigation .menu .circleIconRed:hover {
+        opacity: 0.5;
     }
 
     nav#navigation.scroll #company,

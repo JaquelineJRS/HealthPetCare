@@ -21,38 +21,49 @@
                     <a id="company" href="#home"> HealthPet<span>Care</span></a>
 
                     <div class="menu">
-                        <ul>
-                            <li>
-                                <a onclick="closeMenu()" href="#home">Inicio</a>
-                            </li>
-                            <li>
-                                <a onclick="closeMenu()" href="#services"
-                                    >Serviços</a
-                                >
-                            </li>
-                            <li>
-                                <a onclick="closeMenu()" href="#about">Sobre</a>
-                            </li>
-                        </ul>
-
-                        <button onclick="changeColorRed()" href="">
-                            <img
-                                class="circleIconRed"
-                                src="./assets/circleRed.png"
-                                alt=""
-                            />
-                        </button>
-                        <button onclick="changeColorBlue()" href="">
+                        <div class="col-a">
+                            <ul>
+                                <li>
+                                    <a onclick="closeMenu()" href="#home"
+                                        >Inicio</a
+                                    >
+                                </li>
+                                <li>
+                                    <a onclick="closeMenu()" href="#services"
+                                        >Serviços</a
+                                    >
+                                </li>
+                                <li>
+                                    <a onclick="closeMenu()" href="#about"
+                                        >Sobre</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <button onclick="changeColorBlue()" href="">
                             <img
                                 class="circleIconBlue"
                                 src="./assets/circleBlue.png"
                                 alt=""
                             />
-                        </button>
+                        </button> -->
 
-                        <a class="button" onclick="closeMenu()" href="#contact"
-                            >Contato</a
-                        >
+                        <div class="col-b">
+                            <a
+                                class="button"
+                                onclick="closeMenu()"
+                                href="#contact"
+                                >Contato</a
+                            >
+
+                            <button onclick="changeColorRed()" href="">
+                                <img
+                                    class="circleIconRed"
+                                    src="./assets/circleRed.png"
+                                    alt=""
+                                />
+                            </button>
+                        </div>
 
                         <ul class="social-links">
                             <li>
@@ -209,15 +220,15 @@
                 <div class="wrapper">
                     <div class="col-a">
                         <header>
-                            <h4>BOAS-VINDAS A DOCTORCARE 👋🏽</h4>
-                            <h1>Assistência médica simplificada para todos</h1>
+                            <h4>Seja bem vindo(a) a HealthPetCare 😸🐶</h4>
+                            <h1>Assistência médica para o seu pet.</h1>
                         </header>
 
                         <div class="content">
                             <p>
-                                Os médicos da DoctorCare vão além dos sintomas
-                                para tratar a causa raiz de sua doença e
-                                proporcionar uma cura a longo prazo.
+                                Nossos especialistas desenvolvem seu trabalho
+                                com eficiência para cuidar daqueles que
+                                complementam o amor em seu lar.
                             </p>
                             <a class="button" href="#contact">
                                 <svg
@@ -241,23 +252,23 @@
                     <div class="col-b">
                         <img
                             src="./assets/dogVet.jpg"
-                            alt="Mulher negra sorrindo, vestindo uma blusa cacharrel verde musgo e com as duas mãos postadas sob o peito."
+                            alt="Cachorro SRD caramelo olhando para frente, vestindo um peitoral azul com efeites vermelhos."
                         />
                     </div>
 
                     <div class="stats">
                         <div class="stat">
-                            <h3>+3.500</h3>
-                            <p>Pacientes atendidos</p>
-                        </div>
-
-                        <div class="stat">
-                            <h3>+15</h3>
-                            <p>Especialistas disponíveis</p>
+                            <h3>+1000</h3>
+                            <p>Pets domésticos atendidos</p>
                         </div>
 
                         <div class="stat">
                             <h3>+10</h3>
+                            <p>Especialidades disponíveis</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3>+5</h3>
                             <p>Anos no mercado</p>
                         </div>
                     </div>
@@ -268,7 +279,7 @@
                 <div class="wrapper">
                     <header>
                         <h4>Serviços</h4>
-                        <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
+                        <h2>Do que o seu Pet precisa?</h2>
                     </header>
 
                     <div class="content">
@@ -296,11 +307,11 @@
                                     />
                                 </svg>
 
-                                <h3>Problemas digestivos</h3>
+                                <h3>Clinica Geral</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Neste primeiro contato fazemos a avaliação
+                                    completa do seu animalzinho, encaminhando ao
+                                    especialista se houver necessidade.
                                 </p>
                             </div>
 
@@ -327,11 +338,11 @@
                                     />
                                 </svg>
 
-                                <h3>Saúde Hormonal</h3>
+                                <h3>Cardiologia</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Com exames específicos feitos por nós,
+                                    diagnosticamos possíveis doenças
+                                    cardiológicas.
                                 </p>
                             </div>
 
@@ -358,11 +369,11 @@
                                     />
                                 </svg>
 
-                                <h3>Bem-estar mental</h3>
+                                <h3>Odontologia</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Contamos com especialista na saúde bucal do
+                                    seu animal. Realizamos diversos
+                                    procedimentos se necessáio.
                                 </p>
                             </div>
 
@@ -389,11 +400,11 @@
                                     />
                                 </svg>
 
-                                <h3>Cuidados Pediátricos</h3>
+                                <h3>Fisioterapia</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Realizamos manipulação terapeutica em
+                                    animais com doenças hereditárias, e também
+                                    nos que adquiriu no decorrer da idade.
                                 </p>
                             </div>
 
@@ -420,11 +431,12 @@
                                     />
                                 </svg>
 
-                                <h3>Autoimune e Inflamação</h3>
+                                <h3>Neurologia</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Realizamos avaliações e tratamentos de
+                                    problemas que envolvem todo sistema nervoso
+                                    central, e também alterações como hérnia de
+                                    disco e epilepsia animal.
                                 </p>
                             </div>
 
@@ -451,11 +463,12 @@
                                     />
                                 </svg>
 
-                                <h3>Saúde do coração.</h3>
+                                <h3>Ortopedia</h3>
                                 <p>
-                                    Amet minim mollit non deserunt ullamco est
-                                    sit aliqua dolor do amet sint. Velit officia
-                                    consequat duis enim.
+                                    Com avaliações detalhadas e diagnósticos,
+                                    tratamos todo tipo de lesão, desde fraturas
+                                    até luxações que possa agredir ossos,
+                                    musculatura, articulações e ligamentos.
                                 </p>
                             </div>
                         </div>
@@ -473,17 +486,14 @@
 
                         <div class="content">
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Officia corrupti beatae
-                                temporibus, aspernatur consequuntur magni ea
-                                asperiores mollitia animi. Dolore voluptate
-                                recusandae atque et magnam minima. Officiis
-                                officia omnis qui. Lorem ipsum dolor sit amet,
-                                consectetur adipisicing elit. Neque cum
-                                inventore architecto nostrum dicta, amet aliquid
-                                deserunt animi corrupti cupiditate doloremque
-                                perspiciatis error odit earum alias iusto.
-                                Alias, eos inventore!
+                                A HealthPetCare surgiu com a união de dois
+                                amigos e amantes de animais com o objetivo de
+                                ofertar um atendimento diferenciado para esses
+                                que nos trazem tanta alegria. Apostamos no
+                                diagóstico rápido e eficiente e com isso
+                                investimos em laboratório próprio, sala de
+                                captura de imagem, sala de cirurgia e ambiente
+                                de internação apropriado.
                             </p>
                         </div>
                     </div>
@@ -491,7 +501,7 @@
                     <div class="col-b">
                         <img
                             src="./assets/vetAndDog.jpg"
-                            alt="Doutor sorrindo segurando uma prancheta ao lado de pacientes"
+                            alt="Veterinaria sorrindo e auscultando um cachorro da raça maltês."
                         />
                     </div>
                 </div>
@@ -501,7 +511,7 @@
                 <div class="wrapper">
                     <div class="col-a">
                         <header>
-                            <h2>Entre em contato com a gente</h2>
+                            <h2>Entre em contato conosco</h2>
                         </header>
 
                         <div class="content">
@@ -530,7 +540,7 @@
                                         />
                                     </svg>
 
-                                    R. Amauri Souza, 346
+                                    Alameda do osso, 123
                                 </li>
                                 <li>
                                     <svg
@@ -556,14 +566,14 @@
                                         />
                                     </svg>
 
-                                    contato@beautysalon.com
+                                    contato@healthpetcare.com
                                 </li>
                             </ul>
                             <a
                                 class="button"
                                 href="https://wa.me/5511987654321"
                                 target="_blank"
-                                >Agende sua consulta</a
+                                >Agendar a consulta</a
                             >
                         </div>
                     </div>
@@ -581,11 +591,12 @@
                 <div class="wrapper">
                     <div class="col-a">
                         <a class="company" href="#home"> HealthPetCare </a>
+                        <br />
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script>
 
-                        <p>
-                            ©2022 DoctorCare. <br />
-                            Todos os direitos reservados.
-                        </p>
+                        <p>&copy Todos os direitos reservados.<br /></p>
                     </div>
 
                     <div class="col-b">
